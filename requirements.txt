@@ -1,0 +1,6 @@
+dash
+gunicorn
+plotly
+requests
+flask
+flask-cors
