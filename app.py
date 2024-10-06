@@ -48,7 +48,7 @@ app.layout = html.Div(children=[
     # Interval component for updating the graphs every 10 seconds
     dcc.Interval(
         id='interval-component',
-        interval=10 * 1000,  # Update every 10 seconds
+        interval=30*60 * 1000,  # Update every 10 seconds
         n_intervals=0
     )
 ])
